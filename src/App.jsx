@@ -1,7 +1,11 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 
-const API = "http://localhost:8080/api/employees";
+// const API = "http://localhost:8080/api/employees";
+
+const API = "https://employee-management-backend-eyyv.onrender.com/api/employees";
+
+
 
 const emptyForm = {
   name: "",
