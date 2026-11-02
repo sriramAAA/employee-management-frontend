@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "login-registration-frontent",
+=======
+  "name": "frontend",
+>>>>>>> 7b4f3e9500ffd98c4f2a09e967e9db3a7f0a0499
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,6 +14,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+<<<<<<< HEAD
     "axios": "^1.21.0",
     "bootstrap": "^5.3.8",
     "react": "^19.3.1",
@@ -26,5 +31,20 @@
     "eslint-plugin-react-refresh": "^0.5.7",
     "globals": "^17.13.0",
     "vite": "^8.3.5"
+=======
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "@vitejs/plugin-react": "^6.1.1",
+    "eslint": "^10.10.0",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.6",
+    "globals": "^17.12.0",
+    "vite": "^8.3.0"
+>>>>>>> 7b4f3e9500ffd98c4f2a09e967e9db3a7f0a0499
   }
 }

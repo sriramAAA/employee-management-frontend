@@ -1,13 +1,21 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap');
 
 :root {
   font-family: 'DM Sans', 'Segoe UI', sans-serif;
   color: #242d37;
   background: #f7f8f6;
+=======
+:root {
+  font-family: Inter, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: #282e40;
+  background: #f5f6fa;
+>>>>>>> 7b4f3e9500ffd98c4f2a09e967e9db3a7f0a0499
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+<<<<<<< HEAD
   font-optical-sizing: auto;
   font-weight: 400;
 
@@ -16,12 +24,16 @@
   --teal: #167c74;
   --teal-dark: #11645f;
   --mint: #d7eee3;
+=======
+  font-weight: 400;
+>>>>>>> 7b4f3e9500ffd98c4f2a09e967e9db3a7f0a0499
 }
 
 * {
   box-sizing: border-box;
 }
 
+<<<<<<< HEAD
 body {
   min-width: 320px;
   min-height: 100vh;
@@ -1025,4 +1037,19 @@ a {
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
   }
+=======
+html,
+body,
+#root {
+  min-width: 320px;
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+#root {
+  min-height: 100svh;
+>>>>>>> 7b4f3e9500ffd98c4f2a09e967e9db3a7f0a0499
 }
